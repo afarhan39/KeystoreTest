@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/bEncrypt"
+        android:layout_below="@+id/etText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Encrypt"/>
+
+    <Button
+        android:id="@+id/bDecrypt"
+        android:layout_below="@id/etText"
+        android:layout_toEndOf="@id/bEncrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Decrypt"/>
+
+    <TextView
+        android:id="@+id/tvEncrypt"
+        android:layout_below="@id/bDecrypt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Encrypt"/>
+
+    <TextView
+        android:id="@+id/tvDecrypt"
+        android:layout_below="@id/tvEncrypt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Decrypt"/>
+
+
+
+
+
+</RelativeLayout>
